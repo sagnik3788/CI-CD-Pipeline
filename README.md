@@ -1,7 +1,5 @@
 # CI/CD Pipeline
 
-# Pipeline Deployment with Jenkins and GitOps
-
 ## Step 1: Create a Basic Application
 
 Create a basic application that you want to deploy using the pipeline. This could be a simple web server, such as a Go server (`main.go` and `go.mod`).
