@@ -25,8 +25,6 @@ pipeline {
                 script {
                     // Push Docker image to registry
 
-                    docker.withRegistry('https://index.docker.io/v1/', [credentialsId: 'docker-hub-credentials']) {
-
                     docker.withRegistry('https://index.docker.io/v1/', [username: 'sagnik3788', password: 'coder@981']) {
 
                         docker.image('sagnik3788/ci-cd-pipeline:latest').push('latest')
